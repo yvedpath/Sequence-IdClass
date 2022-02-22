@@ -1,0 +1,29 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>  
+		<!--Postgresql-Configuration
+		<property name="dialect">org.hibernate.dialect.PostgreSQL92Dialect</property>
+		<property name="show_sql">true</property>
+		<property name="current_session_context_class">thread</property>
+		<property name="connection.driver_class">org.postgresql.Driver</property>
+		<property name="connection.url">jdbc:postgresql://localhost:5432/myfamily</property>
+ 		<property name="connection.username">postgres</property>
+		<property name="connection.password">postgres</property> 
+		<property name="connection.pool_size">1</property> 
+		<property name="hbm2ddl.auto">create</property>
+		<mapping class="com.Employee"/> -->
+			<!--SqlServer configuration-->
+		<property name="dialect">org.hibernate.dialect.SQLServer2008Dialect</property> 
+		<property name="show_sql">true</property>
+		<property name="current_session_context_class">thread</property>
+		<property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="connection.url">jdbc:sqlserver://vmg04.mw.lab.eng.bos.redhat.com:1433;databasename=dballo04</property>
+		<property name="connection.username">dballo04</property>
+		<property name="connection.password">dballo04</property> 
+		<property name="connection.pool_size">1</property> 
+		<property name="hbm2ddl.auto">create</property>
+			<mapping class="com.Employee"/> 
+	</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,26 @@
+INDEX VERSION 1.131+/home/yvedpath/NotBackedUp/JavaProjects/Sequence-IdClass/.metadata/.plugins/org.eclipse.jdt.core
+1066669796.index
+593428990.index
+4100684315.index
+1865797976.index
+712741110.index
+2523647537.index
+441499687.index
+3219321979.index
+3548016248.index
+889715857.index
+2747427531.index
+568717455.index
+2780749438.index
+3089335510.index
+2632383651.index
+1926857849.index
+955799793.index
+1571920955.index
+1736636514.index
+1748137241.index
+2269535093.index
+1005217024.index
+1514149807.index
+2330981212.index
+1264815970.index
